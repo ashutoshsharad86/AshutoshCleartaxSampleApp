@@ -83,6 +83,7 @@ public class TwitterDataAsynDownloadHelper extends AsyncTask<Void, Void, Twitter
             for (String s1 : splittedString) {
                 // We are not considering references to shared URLs, if needed just comment out below code
                 if (!s1.startsWith("https://") && !s1.startsWith("http://")) {
+                    s1= s1.toLowerCase();
                     count = hashMap.containsKey(s1) ? count + 1 : 1;
                     hashMap.put(s1, count);
                 }
