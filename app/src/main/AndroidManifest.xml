@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashutosh.ashutoshcleartaxsampleapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".views.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="ACCESS_TOKEN" android:value="124889703-rIDSghlnlsrY5Af9UIBQf0LB9y9O4gHvgSCitxxj" ></meta-data>
+        <meta-data android:name="ACCESS_TOKEN_SECRET" android:value="mqe1G2BEFcDmRprAxFyhPM75dIRUgPpMBbe5k0gkFDhQw" ></meta-data>
+        <meta-data android:name="CONSUMER_KEY" android:value="3nj8HXm0WDHf0yZ3x7ZJtmAcI" ></meta-data>
+        <meta-data android:name="CONSUMER_SECRET" android:value="ZONkLWYl6bVGbbiOOzDqklrt7Vs0TfyM3wNkcRxhIO0wLNKsNQ" ></meta-data>
+    </application>
+
+</manifest>

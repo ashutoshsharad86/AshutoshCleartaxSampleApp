@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ClearTax Assignment</string>
+	<string name="title">ClearTax Twitter Words</string>
+	<string name="button_text">Load latest items</string>
+
+</resources>
